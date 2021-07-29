@@ -30,6 +30,7 @@ public class Grid {
 		System.out.println(driver.getTitle()+"*** is the page we have visited ***");
 		Thread.sleep(5000);
 		driver.close();
+		System.out.println("Jenkins Created");
 	}
 
 }
