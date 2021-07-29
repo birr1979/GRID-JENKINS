@@ -8,6 +8,11 @@
           <include name="googleTest"/>
         </methods>
       </class> <!-- Docker.Grid -->
+      <class name="Docker.local">
+        <methods>
+          <include name="googleTest"/>
+        </methods>
+      </class> <!-- Docker.local -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
