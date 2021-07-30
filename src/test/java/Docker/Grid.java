@@ -16,7 +16,7 @@ public class Grid {
 	@Test
 	void googleTest() throws MalformedURLException, InterruptedException {
 
-		String hubURL="http://10.0.0.24:4444/wd/hub";
+		String hubURL="http://10.0.0.158:4444/wd/hub";
 		String pageURL= "https://www.afrocouple.com/";
 		WebDriverManager.chromedriver().setup();
 		DesiredCapabilities cap= DesiredCapabilities.chrome();
